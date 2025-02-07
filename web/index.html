@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+    <head>
+        <title>Unity Challenge CARRT</title>
+        <link href="https://mahmtfs.github.io/css/custom.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://mahmtfs.github.io/js/theme_switch.js"></script>
+    </head>
+    <body class="d-flex flex-column h-100" onload="themeSetter()">
+        <div class="fixed-top" style="z-index: 1035; width: 50%;">
+            <a class="btn" href="https://mahmtfs.github.io/">&lt; Back to main page</a>
+        </div>
+        <div class="d-flex flex-row-reverse fixed-top">
+            <button id="dark_mode" class="btn border-dark rounded-0" onclick="themeSwitch()">
+                Dark Mode: <span id="dark_mode_status"></span>
+            </button>
+        </div>
+        <header class="container text-center mt-5pt">
+            <h1>Unity Challenge CARRT</h1>
+        </header>
+        <main class="container text-center">
+            <h2>Game:</h2>
+            <p>Bonus:</p>
+            <video width="720" height="405" controls>
+                <source src="demos/BetterGameDemo.mp4" type="video/mp4">
+            </video>
+            
+            <h2><br>Challenge:</h2>
+            <p>Part1 Demo:</p>
+            <video style="font-size: 0;" width="720" height="405" controls>
+                <source src="demos/Task1Demo.mp4" type="video/mp4">
+            </video>
+            <p>Part2 Demo:</p>
+            <video width="720" height="405" controls>
+                <source src="demos/Task2Demo.mp4" type="video/mp4">
+            </video>
+            <p>Part3 Demo:</p>
+            <video width="720" height="405" controls>
+                <source src="demos/Task3Demo.mp4" type="video/mp4">
+            </video>
+              
+        </main>
+        <footer class="footer mt-auto py-3">
+            <div class="container text-center">
+                <p class="formal-note">Powered by GitHub. Made with Bootstrap.</p>
+            </div>
+        </footer>
+    </body>
+</html>
